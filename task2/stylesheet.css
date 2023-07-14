@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+  }
+.container{
+    position: relative;
+    height: 180vh;
+    
+    background-color: rgb(5, 38, 66);
+}
+nav{
+    position:sticky;
+    top: 10px;
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    width: 15%;
+    font-size: 25px;
+    color: brown;
+    text-decoration: none;
+}
+.content{
+    margin-left: 25%;
+    background-color: white;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.content p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.content span{
+    font-size: 18px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: violet;
+    width: 100%;
+}
+footer p{
+    margin-left: 40%;
+    font-size: 22px;
+    font-weight: 600;
+}

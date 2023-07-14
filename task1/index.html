@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+   <div class="container">
+        <p class="theapply">Apply for Position</p>
+        <div class="formlayout">
+           
+            <div class="theform">
+                <!-- <p class="word">Your info</p> -->
+                
+                <form action="/" class="thedata">
+                    <fieldset>
+                    <legend>Your info</legend>
+                        <label for="firstname">Firstname</label>
+                        <input type="text" name="firstname" id="firstname" required placeholder="Enter your first name">
+                    
+                    
+                        <label for="lastname">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" required placeholder="Enter your Last name">
+                    
+                    
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Enter your email">
+                    
+                    
+                        <label for="age">Age</label>
+                        <input type="text" name="age" id="age" required placeholder="Enter your Age">
+                    
+                    
+                        <label for="des">Which option best describes you ?</label>
+                        <select name="des" id="des">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="Owner">Owner</option>
+                        </select>
+                        <label for="gender">What is your gender ?</label>
+                        <div class="genderinp">
+                            <input type="radio" name="gender" id="gender">
+                            <span>Male</span> <br>
+                        
+                        <div class="genderinp">
+                            <input type="radio" name="gender" id="gender">
+                            <span>Female</span> <br>
+                        </div>
+                        <label for="age">Languages and Frameworks known</label>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang1">
+                            <span>C#</span> <br>
+                        </div>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang2">
+                            <span>Java</span> <br>
+                        </div>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang3">
+                            <span>Python</span> <br>
+                        </div>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang4">
+                            <span>JavaScript</span> <br>
+                        </div>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang">
+                            <span>React</span> <br>
+                        </div>
+                        <div class="genderinp">
+                            <input type="checkbox" name="lang" id="lang">
+                            <span>Angular</span> <br>
+                        </div>
+                        <label for="hire">ًWhy Should we Hire you ?</label>
+                        <textarea name="hire" id="hire" cols="30" rows="10"></textarea>
+                    </div>
+                
+                    <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+                </form>
+            </div>
+        </div>
+   </div>
+      
+</body>
+</html>

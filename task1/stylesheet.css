@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+.container{
+    background-color: bisque;
+    height: 140vh;
+    margin: 0;
+    
+}
+.theapply{
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 38%;
+    margin-top: 0;
+}
+.formlayout{
+    background-color: white;
+    margin-left: 25%;
+    height: 900px;
+    width: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.theform{
+    
+    height: 95%;
+    width: 95%;
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+}
+
+legend{
+    font-size: 20px;
+}
+.thedata{
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+.thedata input{
+    display: block;
+    
+    width: 100%;
+    
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.thedata label{
+
+    display: block;
+    margin-bottom: 5px;
+}
+.thedata select{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.thedata textarea{
+    width: 100%;
+    display: block;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.genderinp input{
+    width: fit-content;
+    display: inline;
+}
+.buttons{
+    display: block;
+    margin-top: 25px;
+}
+.buttons button{
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 55px; 
+    width: 150px;
+}
